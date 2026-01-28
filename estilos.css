@@ -1,0 +1,88 @@
+body{
+    font-family:Arial;
+    margin:0;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(127, 208, 255);
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(255, 127, 251);
+    color: #000;
+    padding: 10px;
+
+}
+nav a{
+    color: rgb(255, 249, 249);
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+nav a :hover{
+    text-decoration: underline;
+}
+nav a :visited{
+    color:blue;
+}
+
+section{
+    background-color: aliceblue;
+    margin: 20px;
+    padding:20px ;
+}
+.cajahover{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+.cajahover:hover{
+    background-color: rgb(245, 204, 149);
+}
+.botonactive{
+    padding: 10px 20px;
+    background-color: rgb(28, 133, 231);
+    color: azure;
+    cursor: pointer;
+}
+.botonactive:active{
+    transform: scale(0.95);
+    background: #000;
+}
+
+input:focus{
+    outline: 2px solid skyblue;
+}
+.etiquetachecked{
+    cursor: pointer;
+}
+
+.etiquetachecked input:checked{
+    outline: 2px salmon;
+}
+.span-interactivo{
+    background-color: rgb(123, 229, 255);
+    padding: 3px 6px;
+    cursor: pointer;
+    transition: background 0.3;
+}
+
+.span-interactivo:hover{
+    background: palevioletred;
+}
+audio{
+    margin: 10 px;
+}
+video{
+    margin: 50px;
+}
+footer{
+    background: peachpuff;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+}
